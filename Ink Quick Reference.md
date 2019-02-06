@@ -1,6 +1,6 @@
 # Ink Quick Reference Sheet
 
----
+> This document aims to be a somewhat more concise reference for writing in Ink. It should be easy to find specific Ink features within this document, with collapsible, fully functional code examples given where correct implementation is either non-obvious or non-trivial.
 
 ### Varying Text
 
