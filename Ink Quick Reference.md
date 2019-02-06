@@ -1,16 +1,21 @@
 # Ink Quick Reference Sheet
 
-> This document aims to be a somewhat more concise reference for writing in Ink. It should be easy to find specific Ink features within this document, with collapsible, fully functional code examples given where correct implementation is either non-obvious or non-trivial.<br>Philosophies governing language design decisions and in-depth explanations of features remain outside the scope of this document but are available in the main [Ink documentation](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md).
+> This document aims to be a somewhat more concise reference for writing in Ink. It should be easy to find specific Ink features within this document, with collapsible, fully functional code examples given where correct implementation is either non-obvious or non-trivial.<br>Philosophies governing language design decisions and in-depth explanations of features remain outside the scope of this document but are available in the main [Ink documentation](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md). There will be parts in this document where that rule is broken: usually when a feature is deemed to be confusing without further explanation, and an adequate explanation is missing from the original docs.
 
 >TODO: Possibly in a separate doc - might it be worth building a document that's just useful patterns for commonly occurring gameplay?
 
-## Basics
+## 1) Basics
 
-
+### Comments
+>TODO
+### Choices
+>TODO
+### Knots and Stitches
+>TODO
 
 ---
 
-### Alternative or Varying Text
+## 2) Alternative or Varying Text
 
 Sometimes the same text will be shown multiple times within the same playthrough: when this happens, we can vary it and use **alternatives** to add flavor or reflect a dynamic game world.
 
@@ -134,4 +139,13 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 </details>
 
 ---
-## Logic and Conditionals
+## Variables and Logic
+>TODO
+## Lists (Sets)
+>TODO
+## Enabling Non-Linear Structures
+>TODO
+### Tunnels
+>TODO
+### Weaves
+>TODO
