@@ -16,7 +16,7 @@ It was {&Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday} today.
 ```
 He told me a joke. {!I laughed politely.|I smiled.|I grimaced.|I promised myself to not react again.}
 ```
-- **~ - Shuffles**: randomised output.
+- **~** - **Shuffles**: randomised output.
 ```
 I tossed the coin. {~Heads|Tails}.
 ```
