@@ -90,7 +90,7 @@ You briefly consider how to greet the person.
 ```
 <details><summary>Some of the above syntax may be unfamiliar at this point - click here for an explanation and the full output.</summary>
 <p>
-The === denotes a [knot](knots-and-stitches), which is how Ink structures sections of content. `-> homers_couch` is a [divert]
+The === denotes a [knot](#knots-and-stitches), which is how Ink structures sections of content. `-> homers_couch` is a [divert](#diverts) which tells the game flow to go to the address 'homers_couch', which is the knot we're currently in - this means the gam
 
 ```
 
