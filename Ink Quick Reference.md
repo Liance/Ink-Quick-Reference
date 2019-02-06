@@ -4,9 +4,12 @@
 
 >TODO: Possibly in a separate doc - might it be worth building a document that's just useful patterns for commonly occurring gameplay?
 
+## Table of Contents
+
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Ink Quick Reference Sheet](#ink-quick-reference-sheet)
+	- [Table of Contents](#table-of-contents)
 	- [1) Basics](#1-basics)
 		- [Include](#include)
 		- [Text](#text)
