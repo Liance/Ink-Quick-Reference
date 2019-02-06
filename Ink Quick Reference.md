@@ -71,7 +71,30 @@ You briefly consider how to greet the person.
 * Hello there!
 
 ```
-- **[ ]** - **Suppressed** choices hide their text once they are selected. Everything within the square brackets will not be printed into response.
+
+- **+** -**Sticky choice**: by default, choices indicated with an \* are "used up" once they're selected, so even if the flow comes around to the same choice, previously selected choices won't be shown anymore. using a + symbol instead of an * means that the choice won't get "used up", even after it's chosen.
+
+```
+=== homers_couch ===
+	+	[Eat another donut]
+		You eat another donut. -> homers_couch
+	*	[Get off the couch]
+		You struggle up off the couch to go and compose epic poetry.
+		-> END
+```
+<details><summary>Some of the above syntax may be unfamiliar at this point - click here for an explanation and the full output.</summary>
+<p>
+The === denotes a [knot](knots-and-stitches), which is how Ink structures sections of content. `-> homers_couch` is a [divert]
+
+```
+
+```
+</p>
+</details>
+
+
+
+<br>- **[ ]** - **Suppressed** choices hide their text once they are selected. Everything within the square brackets will not be printed into response.
 
 ```
 Hi there!
@@ -95,6 +118,14 @@ Hello back!
 <br>Suppressed choice text can be mixed with normal choice text. The square brackets act as dividers within the choice content when this is the case.
 
 Content before the square brackets is printed in both choice selection and output; content inside is printed only during choice selection; content after is only printed in the output.
+
+```
+"Do you want to go fishing after school?" Ryuji asks.
+
+	* I [hate fishing, but I don't want to hurt Ryuji's feelings.]have some chores to run today, sorry, is what you end up saying.
+
+		Ryuji slaps you on the back affably and shakes his head as if to say never mind. "Maybe some other day, then."
+```
 
 ### Knots and Stitches
 >TODO
