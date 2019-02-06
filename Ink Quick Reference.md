@@ -4,29 +4,35 @@
 
 >TODO: Possibly in a separate doc - might it be worth building a document that's just useful patterns for commonly occurring gameplay?
 
-## Table of Contents
+# Table of Contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Ink Quick Reference Sheet](#ink-quick-reference-sheet)
-	- [Table of Contents](#table-of-contents)
+- [Table of Contents](#table-of-contents)
 	- [1) Basics](#1-basics)
 		- [Include](#include)
 		- [Text](#text)
 		- [Comments](#comments)
 		- [Choices](#choices)
+	- [2) Structure](#2-structure)
 		- [Knots and Stitches](#knots-and-stitches)
-	- [2) Alternative or Varying Text](#2-alternative-or-varying-text)
+		- [Diverts](#diverts)
+		- [Gathers](#gathers)
+		- [Weaves](#weaves)
+	- [3) Alternative or Varying Text](#3-alternative-or-varying-text)
 		- [Useful features for Alternative Text](#useful-features-for-alternative-text)
 		- [Conditional Alternative Text](#conditional-alternative-text)
-	- [3) Variables, Functions and Logic](#3-variables-functions-and-logic)
+	- [4) Variables, Functions and Logic](#4-variables-functions-and-logic)
 		- [Using Variables and Constants](#using-variables-and-constants)
+		- [Logic queries](#logic-queries)
+		- [Math](#math)
 		- [Using Functions](#using-functions)
 		- [Calling External C# Functions](#calling-external-c-functions)
-	- [4) Lists (Sets)](#4-lists-sets)
-	- [5) Enabling Non-Linear Structures](#5-enabling-non-linear-structures)
+	- [5) Lists (Sets)](#5-lists-sets)
+	- [6) Enabling Non-Linear Structures](#6-enabling-non-linear-structures)
 		- [Tunnels](#tunnels)
-		- [Weaves](#weaves)
+		- [Threading (not processor threading!)](#threading-not-processor-threading)
 
 <!-- /TOC -->
 
@@ -127,12 +133,20 @@ Content before the square brackets is printed in both choice selection and outpu
 		Ryuji slaps you on the back affably and shakes his head as if to say never mind. "Maybe some other day, then."
 ```
 
+## 2) Structure
+
 ### Knots and Stitches
 >TODO
 
+### Diverts
+
+### Gathers
+
+### Weaves
+
 ---
 
-## 2) Alternative or Varying Text
+## 3) Alternative or Varying Text
 
 Sometimes the same text will be shown multiple times within the same playthrough: when this happens, we can vary it and use **alternatives** to add flavor or reflect a dynamic game world.
 
@@ -257,7 +271,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 
 ---
 
-## 3) Variables, Functions and Logic
+## 4) Variables, Functions and Logic
 >TODO
 ### Using Variables and Constants
 >TODO
@@ -272,7 +286,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 
 ---
 
-## 4) Lists (Sets)
+## 5) Lists (Sets)
 
 >Technical pre-amble: Lists in Ink are effectively sets: they guarantee uniqueness, have operations like union and intersection, and are fundamentally written as dictionaries behind-the-scenes. They are named Lists and not Sets only because writing stuff like "Set the Set" gets very confusing, very fast.
 
@@ -280,9 +294,9 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 
 ---
 
-## 5) Enabling Non-Linear Structures
+## 6) Enabling Non-Linear Structures
 >TODO
 ### Tunnels
 >TODO
-### Weaves
+### Threading (not processor threading!)
 >TODO
