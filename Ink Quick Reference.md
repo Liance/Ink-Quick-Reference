@@ -38,7 +38,7 @@ A man with ridiculously large muscles is posing in front of you.
 </p>
 </details>
 
-<details><summary>**Nested elements example**</summary>
+<details><summary>Nested elements example</summary>
 <p>
 ```
 -(top)
@@ -49,7 +49,7 @@ A man with ridiculously large muscles is posing in front of you.
 </details>
 
 
-<details><summary> **Divert statements example example** </summary>
+<details><summary>Divert statements example example</summary>
 <p>
 ```
 -(top)
@@ -58,7 +58,7 @@ A man with ridiculously large muscles is posing in front of you.
 ```
 </p>
 </details>
-<details><summary>**Choice text variability example**</summary>
+<details><summary>Choice text variability example</summary>
 <p>
 ```
 -(top)
@@ -80,7 +80,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 <details><summary>...</summary>
 <p>
 
-#### Full Example
+#### Conditional Text Example
 
 ```
 -> school
