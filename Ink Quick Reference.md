@@ -33,7 +33,7 @@ I tossed the coin. {~Heads|Tails}.
 - **Choice text variability**: `+ "[Hello {~there|General Grevious}!]`: if starting with {, use **\** to escape the brackets otherwise it will be read as a conditional.
 <details><summary>...</summary>
 <p>
-#### Full Example
+
 ```
 Hmm.
 ```
