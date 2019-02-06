@@ -6,10 +6,45 @@
 
 ## 1) Basics
 
+### Include
+Ink scripts can be split across multiple files with an include statement at the top of the main file: namespacing remains the same and they are still effectively one file in practice, but this allows for easy compartmentalization.
+```
+INCLUDE newspaper.ink
+INCLUDE cities/vienna.ink
+INCLUDE journeys/orient_express.ink
+```
+### Text
+Everything that isn't part of the Ink syntax is automatically printed as story text. Text on separate lines produces new paragraphs.
+
+```
+Hello!
+I'm curious as to why people like saying this but, well -
+Hello, world!
+```
+
 ### Comments
->TODO
+Ink comments are no different than comments in any other language.
+```
+// This is a comment.
+
+/*
+    This is a theoretically unlimited comment block.
+*/
+
+TODO: This will print out the written message during compilation, but will not produce anything in the course of actual play.
+```
+
 ### Choices
->TODO
+Choices allow for player input.
+- **Basic choice**: a choice is indicated by an asterisk \*.
+
+```
+You briefly consider how to greet the person.
+* Hello there!
+
+```
+- **Suppressed **
+
 ### Knots and Stitches
 >TODO
 
