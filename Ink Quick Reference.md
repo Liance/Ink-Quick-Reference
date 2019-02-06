@@ -97,7 +97,7 @@ Text that varies based on logic.
 ```
 You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arcade|head home}.
 ```
-<details><summary>...</summary>
+<details><summary>Full example.</summary>
 <p>
 
 #### Conditional Alternative Text Example
