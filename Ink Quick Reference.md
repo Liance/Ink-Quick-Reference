@@ -44,7 +44,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 
 #### yes, even hidden code blocks!
 
-```python
+```
 print("hello world!")
 ```
 
