@@ -21,23 +21,51 @@ He told me a joke. {!I laughed politely.|I smiled.|I grimaced.|I promised myself
 I tossed the coin. {~Heads|Tails}.
 ```
 #### Useful features for Varying Text
-- **Blank elements**: `{'Wait for it...|||||I am here!'}` <details><summary>...</summary>
+- **Blank elements**:`{'Wait for it...|||||I am here!'}`
+
+- **Nested elements**: `Ann {waits patiently.|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}`
+- **Divert statements**: `I {read the first few chapters.|passed the midpoint of the story.|hit the climax.|finished the epilogue.|finally put the book down. -> finding_next_book}`
+- **Choice text variability**: `+ "[Hello {~there|General Grevious}!]`, or if starting with {, use **\** - `+ \ {&Hello there!|Hello there!|You were my brother Anakin!|You were my brother Anakin!} []`
+
+<details><summary>**Blank elements example**</summary>
 <p>
-#### Full Example
 ```
 -(top)
 A man with ridiculously large muscles is posing in front of you.
-{'Wait for it...|||||I am here!'->END}
-+ [You wait around for a bit] ->top
+{"Wait for it..."|||||"I am here!\"->END}
++[You wait around for a bit] ->top
 ```
 </p>
 </details>
 
-- **Nested elements**: `Ann {waits patiently|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}`
-- **Divert statements**: `I {read the first few chapters.|passed the midpoint of the story.|hit the climax.|finished the epilogue.|finally put the book down. -> finding_next_book}`
-- **Choice text variability**: `+ "[Hello {~there|General Grevious}!]`, or if starting with {, use **\** - `+ \ {&Hello there!|Hello there!|You were my brother Anakin!|You were my brother Anakin!} []`
+<details><summary>**Nested elements example**</summary>
+<p>
+```
+-(top)
+    Ann {waits patiently|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}
++ [You tell Ann to wait just a little bit longer...] ->top
+```
+</p>
+</details>
 
 
+<details><summary>**Divert statements example example**</summary>
+<p>
+```
+-(top)
+    I {read the first few chapters.|passed the midpoint of the story.|hit the climax.|finished the epilogue.|finally put the book down. -> END}
++[You kept reading -] ->top
+```
+</p>
+</details>
+<details><summary>**Choice text variability example**</summary>
+<p>
+```
+-(top)
+    + \ {&Hello there!|Hello there!|You were my brother Anakin!|You were my brother Anakin!} [] ->top
+```
+</p>
+</details>
 
 Alternatives can be used inside loops to create the appearance of intelligent, state-tracking gameplay without particular effort.
 
