@@ -19,10 +19,12 @@
 	- [2) Alternative or Varying Text](#2-alternative-or-varying-text)
 		- [Useful features for Alternative Text](#useful-features-for-alternative-text)
 		- [Conditional Alternative Text](#conditional-alternative-text)
-			- [Conditional Alternative Text Example](#conditional-alternative-text-example)
-	- [Variables and Logic](#variables-and-logic)
-	- [Lists (Sets)](#lists-sets)
-	- [Enabling Non-Linear Structures](#enabling-non-linear-structures)
+	- [3) Variables, Functions and Logic](#3-variables-functions-and-logic)
+		- [Using Variables and Constants](#using-variables-and-constants)
+		- [Using Functions](#using-functions)
+		- [Calling External C# Functions](#calling-external-c-functions)
+	- [4) Lists (Sets)](#4-lists-sets)
+	- [5) Enabling Non-Linear Structures](#5-enabling-non-linear-structures)
 		- [Tunnels](#tunnels)
 		- [Weaves](#weaves)
 
@@ -159,7 +161,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 <details><summary>Full example.</summary>
 <p>
 
-#### Conditional Alternative Text Example
+**Conditional Alternative Text Example**
 
 ```
 -> school
@@ -198,11 +200,20 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 </details>
 
 ---
-## Variables and Logic
+## 3) Variables, Functions and Logic
 >TODO
-## Lists (Sets)
+### Using Variables and Constants
 >TODO
-## Enabling Non-Linear Structures
+### Using Functions
+>TODO
+### Calling External C# Functions
+>TODO
+## 4) Lists (Sets)
+
+>Technical pre-amble: Lists in Ink are effectively sets: they guarantee uniqueness, have operations like union and intersection, and are fundamentally written as dictionaries behind-the-scenes. They are named Lists and not Sets only because writing stuff like "Set the Set" gets very confusing, very fast.
+
+>TODO
+## 5) Enabling Non-Linear Structures
 >TODO
 ### Tunnels
 >TODO
