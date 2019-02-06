@@ -25,9 +25,9 @@ I tossed the coin. {~Heads|Tails}.
 
 - **Nested elements**: `Ann {waits patiently.|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}`
 - **Divert statements**: `I {read the first few chapters.|passed the midpoint of the story.|hit the climax.|finished the epilogue.|finally put the book down. -> finding_next_book}`
-- **Choice text variability**: `+ "[Hello {~there|General Grevious}!]`, or if starting with {, use **\** - `+ \ {&Hello there!|Hello there!|You were my brother Anakin!|You were my brother Anakin!} []`
+- **Choice text variability**: `+ "[Hello {~there|General Grevious}!]`: if starting with {, use **\** to escape the brackets otherwise it will be read as a conditional.
 
-<details><summary>**Blank elements example**</summary>
+<details><summary>Blank elements example</summary>
 <p>
 ```
 -(top)
