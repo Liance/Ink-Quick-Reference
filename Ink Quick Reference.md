@@ -4,6 +4,27 @@
 
 >TODO: Possibly in a separate doc - might it be worth building a document that's just useful patterns for commonly occurring gameplay?
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Ink Quick Reference Sheet](#ink-quick-reference-sheet)
+	- [1) Basics](#1-basics)
+		- [Include](#include)
+		- [Text](#text)
+		- [Comments](#comments)
+		- [Choices](#choices)
+		- [Knots and Stitches](#knots-and-stitches)
+	- [2) Alternative or Varying Text](#2-alternative-or-varying-text)
+		- [Useful features for Alternative Text](#useful-features-for-alternative-text)
+		- [Conditional Alternative Text](#conditional-alternative-text)
+			- [Conditional Alternative Text Example](#conditional-alternative-text-example)
+	- [Variables and Logic](#variables-and-logic)
+	- [Lists (Sets)](#lists-sets)
+	- [Enabling Non-Linear Structures](#enabling-non-linear-structures)
+		- [Tunnels](#tunnels)
+		- [Weaves](#weaves)
+
+<!-- /TOC -->
+
 ## 1) Basics
 
 ### Include
