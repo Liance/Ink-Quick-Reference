@@ -31,18 +31,10 @@ I tossed the coin. {~Heads|Tails}.
 - **Nested elements**: `Ann {waits patiently.|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}`
 - **Divert statements**: `I {read the first few chapters.|passed the midpoint of the story.|hit the climax.|finished the epilogue.|finally put the book down. -> finding_next_book}`
 - **Choice text variability**: `+ "[Hello {~there|General Grevious}!]`: if starting with {, use **\** to escape the brackets otherwise it will be read as a conditional.
-<details><summary>...</summary>
-<p>
-
-```
-Hmm.
-```
-</p>
-</details>
-
 
 <details><summary>Blank elements example</summary>
 <p>
+
 ```
 -(top)
 A man with ridiculously large muscles is posing in front of you.
@@ -54,6 +46,7 @@ A man with ridiculously large muscles is posing in front of you.
 
 <details><summary>Nested elements example</summary>
 <p>
+
 ```
 -(top)
     Ann {waits patiently|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}
@@ -65,6 +58,7 @@ A man with ridiculously large muscles is posing in front of you.
 
 <details><summary>Divert statements example example</summary>
 <p>
+
 ```
 -(top)
     I {read the first few chapters.|passed the midpoint of the story.|hit the climax.|finished the epilogue.|finally put the book down. -> END}
@@ -74,6 +68,7 @@ A man with ridiculously large muscles is posing in front of you.
 </details>
 <details><summary>Choice text variability example</summary>
 <p>
+
 ```
 -(top)
     + \ {&Hello there!|Hello there!|You were my brother Anakin!|You were my brother Anakin!} [] ->top
