@@ -4,6 +4,10 @@
 
 ### Varying Text
 
+Sometimes the same text will be shown multiple times within the same playthrough: when this happens, we can vary it and use **alternatives** to add flavor or reflect a dynamic game world.
+
+Alternatives can be used to build loops that create the appearance of intelligent, state-tracking gameplay without particular effort.
+
 - **| - Sequence**: iterates until the final element.
 ```
 {"Three!"|"Two!"|"One!"|"Action!"|The set is live, everybody is busy filming.}
@@ -20,7 +24,9 @@ He told me a joke. {!I laughed politely.|I smiled.|I grimaced.|I promised myself
 ```
 I tossed the coin. {~Heads|Tails}.
 ```
-#### Useful features for Varying Text
+
+### Useful features for Alternative Text
+
 - **Blank elements**:`{'Wait for it...|||||I am here!'}`
 
 - **Nested elements**: `Ann {waits patiently.|{~sighs|shakes her head} and {&glances at her watch|stares exasperatedly at the ceiling|paces about the room}.}`
@@ -67,10 +73,8 @@ A man with ridiculously large muscles is posing in front of you.
 </p>
 </details>
 
-Alternatives can be used inside loops to create the appearance of intelligent, state-tracking gameplay without particular effort.
 
----
-### Conditional Text
+### Conditional Alternative Text
 
 Text that varies based on logic.
 
@@ -80,7 +84,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 <details><summary>...</summary>
 <p>
 
-#### Conditional Text Example
+#### Conditional Alternative Text Example
 
 ```
 -> school
@@ -117,3 +121,5 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 
 </p>
 </details>
+
+---
