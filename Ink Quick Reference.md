@@ -1,8 +1,16 @@
 # Ink Quick Reference Sheet
 
-> This document aims to be a somewhat more concise reference for writing in Ink. It should be easy to find specific Ink features within this document, with collapsible, fully functional code examples given where correct implementation is either non-obvious or non-trivial.
+> This document aims to be a somewhat more concise reference for writing in Ink. It should be easy to find specific Ink features within this document, with collapsible, fully functional code examples given where correct implementation is either non-obvious or non-trivial.<br>Philosophies governing language design decisions and in-depth explanations of features remain outside the scope of this document but are available in the main [Ink documentation](https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md).
 
-### Varying Text
+>TODO: Possibly in a separate doc - might it be worth building a document that's just useful patterns for commonly occurring gameplay?
+
+## Basics
+
+
+
+---
+
+### Alternative or Varying Text
 
 Sometimes the same text will be shown multiple times within the same playthrough: when this happens, we can vary it and use **alternatives** to add flavor or reflect a dynamic game world.
 
@@ -126,3 +134,4 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 </details>
 
 ---
+## Logic and Conditionals
