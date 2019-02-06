@@ -30,6 +30,8 @@
 
 <!-- /TOC -->
 
+---
+
 ## 1) Basics
 
 ### Include
@@ -200,6 +202,7 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 </details>
 
 ---
+
 ## 3) Variables, Functions and Logic
 >TODO
 ### Using Variables and Constants
@@ -208,11 +211,17 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 >TODO
 ### Calling External C# Functions
 >TODO
+
+---
+
 ## 4) Lists (Sets)
 
 >Technical pre-amble: Lists in Ink are effectively sets: they guarantee uniqueness, have operations like union and intersection, and are fundamentally written as dictionaries behind-the-scenes. They are named Lists and not Sets only because writing stuff like "Set the Set" gets very confusing, very fast.
 
 >TODO
+
+---
+
 ## 5) Enabling Non-Linear Structures
 >TODO
 ### Tunnels
