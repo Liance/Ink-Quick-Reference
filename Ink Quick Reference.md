@@ -71,7 +71,30 @@ You briefly consider how to greet the person.
 * Hello there!
 
 ```
-- **Suppressed **
+- **[ ]** - **Suppressed** choices hide their text once they are selected. Everything within the square brackets will not be printed into response.
+
+```
+Hi there!
+* [Return their greeting. This choice text won't be printed after it's selected.]
+	Hello back!
+```
+
+<details><summary>The resultant output.</summary>
+<p>
+
+```
+Hi there!
+1: [Return their greeting. This choice text won't be printed after it's selected.]
+
+>1
+Hello back!
+```
+</p>
+</details>
+
+<br>Suppressed choice text can be mixed with normal choice text. The square brackets act as dividers within the choice content when this is the case.
+
+Content before the square brackets is printed in both choice selection and output; content inside is printed only during choice selection; content after is only printed in the output.
 
 ### Knots and Stitches
 >TODO
@@ -206,6 +229,10 @@ You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arc
 ## 3) Variables, Functions and Logic
 >TODO
 ### Using Variables and Constants
+>TODO
+### Logic queries
+>TODO
+### Math
 >TODO
 ### Using Functions
 >TODO
