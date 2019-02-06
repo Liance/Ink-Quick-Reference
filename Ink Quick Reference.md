@@ -36,4 +36,4 @@ Text that varies based on logic.
 ```
 You pack up your things and {met_ryuji.made_friends: go to meet Ryuji at the arcade|head home}.
 ```
-[a relative link](examples/conditionalReference.md)
+[a relative link](Examples/conditionalReference.md)
