@@ -49,7 +49,7 @@ A man with ridiculously large muscles is posing in front of you.
 </details>
 
 
-<details><summary>**Divert statements example example**</summary>
+<details><summary> **Divert statements example example** </summary>
 <p>
 ```
 -(top)
