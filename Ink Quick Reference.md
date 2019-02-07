@@ -89,7 +89,7 @@ You briefly consider how to greet the person.
 		-> END
 ```
 <details><summary>Some of the above syntax may be unfamiliar at this point - click here for an explanation and the full output.</summary>
-<p>
+
 The === denotes a [knot](#knots-and-stitches), which is how Ink structures sections of content. `-> homers_couch` is a [divert](#diverts) which tells the game flow to go to the address 'homers_couch', which is the knot we're currently in - this means the gam
 
 ```
@@ -98,6 +98,41 @@ The === denotes a [knot](#knots-and-stitches), which is how Ink structures secti
 </p>
 </details>
 
+<br> - **Default Choices**
+
+<details><summary>Default choice example</summary>
+<p>
+
+
+```
+-> initchoice
+===initchoice
+Lichkail Gorbachev, necromancer and supreme leader of the undead USSR is sat opposite you, surrounded by armed skeleton guards. Your countries are on the brink of nuclear war. How will you get out of this one?
+-(retry)
+
+    * [Talk it out.]
+        You ask them if they'd reconsider. They say no. Negotiations have failed. You're going to have to try something else.
+
+        Back to the drawing board.
+        -> retry
+    * [Try subterfuge]
+        "Look, out the window - it's a UFO!" you shout. While everybody's eyes are turned, you steal Gorbachev's ballpoint pen.
+
+        You're not sure how that'll help the peace effort, but it's a neat little pen. There's a tiny plastic skull on its end.
+
+        Back to the drawing board.
+        -> retry
+    + ->
+        Well, nothing for it. We're going to have to go the nuclear route. -> nuclear
+
+===nuclear
+Are we...absolutely sure we want to do this?
++ [Maybe there's something else we haven't considered?] -> initchoice
++ [Nothing else for it.]
+    You press the button. The world ends in a fiery conflagration.-> END
+```
+</p>
+</details>
 
 
 <br>- **[ ]** - **Suppressed** choices hide their text once they are selected. Everything within the square brackets will not be printed into response.
