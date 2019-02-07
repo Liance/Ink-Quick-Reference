@@ -41,3 +41,5 @@ Spirit is hiring a part-time intern to help test our Character Engine tools and 
 ### Diverse backgrounds
 
 - Emphasize range of experience. Both in letter and CV.
+
+### Demonstrate knowledge of Spirit AI's work

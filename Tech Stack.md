@@ -24,6 +24,10 @@ Also, download the ARCore SDK for Unity.
 
 ---
 
+Imagine you’re playing a game powered by Character Engine: You might chat with a character, and their responses will depend on what else is going in the game and how you’ve treated them in the past. “We give characters a preference about which social practices they would rather perform,” says Emily Short, a product manager at Spirit AI who, five years ago, co-wrote a revolutionary A.I. character and story engine named Versu. “An extrovert might like to talk about themselves; an introvert might not. These weightings express their personality but can also shift based on the relationship you have with the character — so a character might get to know you and act as more of an extrovert around you, even if their base personality hasn’t shifted. Two players might reach the same point in a game and have friendly relationships with the same NPC — and that NPC treats one of them with joking distrust but opens up to the other.”
+
+---
+
 Stories in games are still largely representable as static graphs.
 
 >A changeful tale is a dream of a particular aesthetic for interactive stories: one where with each traversal — each unique pathway through the work — the player can exhibit enough agency to craft something that feels meaningfully their own.
