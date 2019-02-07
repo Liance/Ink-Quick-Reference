@@ -98,7 +98,9 @@ The === denotes a [knot](#knots-and-stitches), which is how Ink structures secti
 </p>
 </details>
 
-<br> - **Default Choices**
+<br> - **Default / Fallback Choices**
+
+Fallback choices are never displayed to the player, but are 'chosen' by the game if no other options exist.
 
 <details><summary>Default choice example</summary>
 <p>
