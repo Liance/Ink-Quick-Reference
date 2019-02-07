@@ -1,4 +1,4 @@
-#Job brief
+# Job brief
 
 Spirit is hiring a part-time intern to help test our Character Engine tools and build example projects. Prefer a Windows user, into interactive storytelling, able to visit our London office 1-2 times a month. We welcome applicants of diverse backgrounds. emily@spiritai.com
 
